@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="title">제목</string>
+    <string name="content">내용</string>
+    <string name="dateFormat">yyyy.MM.dd</string>
+    <string name="memoMaxLengthFormat">%d/500</string>
+    <string name="writeComplete">작성 완료</string>
+    <string name="write">작성하기</string>
+    <string name="edit_title">오늘은\n어떤 하루였나요?</string>
+    <string name="edit_diary_title">오늘의 제목</string>
+    <string name="edit_diary_content">오늘의 요약</string>
+    <string name="edit_diary_title_hint">오늘을 한 단어로 표현하면?</string>
+    <string name="edit_diary_content_hint">오늘 하루는 어땠나요?</string>
+    <string name="edit_diary_today_clear">오늘 하루 마무리하기</string>
+</resources>
