@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/button_clicked.xml" value="0.189" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/ic_icn_back.xml" value="0.1235" />
+        <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/rectangle_fill_gray_radius_10.xml" value="0.162" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/rectangle_radius_10.xml" value="0.1235" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/rectangle_radius_5.xml" value="0.189" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/rectangle_selector_button.xml" value="0.189" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/drawable/selector_button.xml" value="0.189" />
+        <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/layout/activity_diary_list.xml" value="0.264" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/layout/activity_edit_diary.xml" value="0.264" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/brian/AndroidStudioProjects/Diary/app/src/main/res/layout/item_diary.xml" value="0.4" />

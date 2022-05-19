@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="viewModel"
+            type="android.mvvmStudy.diary.presentation.EditDiaryViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -80,6 +82,7 @@
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/rectangle_radius_10"
                     android:backgroundTint="@color/gray_e6e6e6"
+                    android:text="@={viewModel.title}"
                     android:ems="10"
                     android:fontFamily="@font/pretendard_regular"
                     android:gravity="center"
@@ -117,6 +120,7 @@
                     android:layout_marginTop="13dp"
                     android:background="@drawable/rectangle_radius_10"
                     android:backgroundTint="@color/gray_e6e6e6"
+                    android:text="@={viewModel.content}"
                     android:hint="@string/edit_diary_content_hint"
                     android:textSize="14sp"
                     android:fontFamily="@font/pretendard_regular"
@@ -138,7 +142,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/et_diary_content" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/button"
+                    android:id="@+id/btn_submit_diary"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -147,8 +151,9 @@
                     android:includeFontPadding="false"
                     android:textSize="14sp"
                     android:textColor="@color/white"
-                    android:background="@drawable/button_clicked"
+                    android:background="@drawable/rectangle_fill_gray_radius_10"
                     android:paddingVertical="20dp"
+                    android:clickable="@{viewModel.canSubmit}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/et_diary_content"
                     app:layout_constraintStart_toStartOf="@+id/et_diary_content"
